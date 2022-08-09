@@ -4,15 +4,15 @@
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-import dls_python3_skeleton
+import dls_bluesky_commissioning
 
 # -- General configuration ------------------------------------------------
 
 # General information about the project.
-project = "dls-python3-skeleton"
+project = "dls_bluesky_commissioning"
 
 # The full version, including alpha/beta/rc tags.
-release = dls_python3_skeleton.__version__
+release = dls_bluesky_commissioning.__version__
 
 # The short X.Y version.
 if "+" in release:
