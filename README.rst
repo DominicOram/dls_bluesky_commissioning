@@ -13,13 +13,12 @@ Releases       https://github.com/dls-controls/dls_bluesky_commissioning/release
 ============== ==============================================================
 
 To install run:
-```
+.. code-block:: bash
     module load python/3.10
     module unload controls_dev
     pipenv install
-```
 
-To start run `pipenv run jupyter-lab`
+Then to start run ``pipenv run jupyter-lab``
 
 .. |code_ci| image:: https://github.com/dls-controls/dls_bluesky_commissioning/workflows/Code%20CI/badge.svg?branch=master
     :target: https://github.com/dls-controls/dls_bluesky_commissioning/actions?query=workflow%3A%22Code+CI%22
