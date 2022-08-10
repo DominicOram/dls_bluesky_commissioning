@@ -13,7 +13,9 @@ Releases       https://github.com/dls-controls/dls_bluesky_commissioning/release
 ============== ==============================================================
 
 To install run:
-.. code-block:: bash
+
+.. code-block:: sh
+
     module load python/3.10
     module unload controls_dev
     pipenv install
